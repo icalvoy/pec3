@@ -1,0 +1,47 @@
+/**
+ * Import variables
+ */
+@tailwind base;
+@tailwind components;
+
+@layer components {
+    .btn-indigo {
+      @apply py-2 px-12 bg-indigo text-white border border-white uppercase rounded shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+    }
+    .form-input {
+      @apply py-1 px-3 w-full rounded border border-gray-300;
+    }
+    h1 {
+      @apply text-4xl mb-2 text-center font-medium;
+    }
+    h2 {
+      @apply text-3xl text-center font-medium my-4;
+    }
+    h3 {
+      @apply text-2xl text-center font-medium mb-2;
+    }
+  }
+
+  
+@import "variables";
+
+/**
+ * Import npm dependencies
+ * see: https://en.parceljs.org/module_resolution.html
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+
+/**
+ * Import layouts
+ * It's a best practice to use a partial for each page
+ */
+
+@import "layouts/home";
+@import "@fortawesome/fontawesome-free/css/all.css";
+/**
+ * Do NOT include anything else in this file!
+ */
+@tailwind utilities;
