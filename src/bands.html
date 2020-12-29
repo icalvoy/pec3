@@ -8,16 +8,17 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <title>Udako Festibala</title>
   </head>
-  <body class="text-lg">
+  <body class="text-lg text-grisTexto font-sans bg-gradient-to-b from-amarilloFondo via-amarillo2Fondo to-amarillo2Fondo bg-no-repeat">
 
-    <header>
-      <nav class="flex py-2 px-4">
+    <header class="flex flex-wrap items-center lg:py-0 py-2">
+      <div class="flex-1 flex justify-between items-center pl-4 pt-4">
         <a href="index.html"><img src="/assets/images/logo_uf.png" alt="Logo"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse w-100 " id="navbarSupportedContent">
-          <ul class="flex flex-nowrap justify-center">
+      </div>
+      <label for="menu-toggle" class="pointer-cursor lg:hidden block pr-4"><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
+      <input class="hidden" type="checkbox" id="menu-toggle" />
+      <div class="hidden lg:flex lg:items-center lg:w-auto w-full pr-4" id="menu">
+        <nav>
+          <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
             <li>
               <a class="px-5 py-1" href="index.html">Home</a>
             </li>
@@ -28,25 +29,23 @@
               <a class="px-5 py-1" href="blog.html">Blog</a>
             </li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
 
 
 
 
     <main>
-    <div class="content">
+    <div class="container mb-12 px-8">
 		  <h1>Bands</h1>
         <div class="flex flex-col md:flex-row my-12">
           <div class="mx-4 my-4">
-            <div>
-              <img src="assets/images/grupo1.jpg" alt="" />
-            </div>
-            <div>
+            <div class="text-center">
+              <img src="assets/images/grupo1.jpg" alt="" class="inline" />
               <h2>Band1</h2>
               <h3>Lorem Ipsum</h3>
-              <p>
+              <p class="text-left">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
                 of type and scrambled it to make a type specimen book.
@@ -55,13 +54,11 @@
           </div>
 
           <div class="mx-4 my-4">
-            <div>
-              <img src="assets/images/grupo2.jpg" alt="" />
-            </div>
-            <div>
+            <div class="text-center">
+              <img src="assets/images/grupo2.jpg" alt=""   class="inline"/>
               <h2>Band2</h2>
               <h3>Lorem Ipsum</h3>
-              <p>
+              <p class="text-left">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
                 of type and scrambled it to make a type specimen book.
@@ -70,13 +67,11 @@
           </div>
 
           <div class="mx-4 my-4">
-            <div>
-              <img src="assets/images/grupo3.jpg" alt="" />
-            </div>
-            <div>
+            <div class="text-center">
+              <img src="assets/images/grupo3.jpg" alt=""  class="inline" />
               <h2>Band3</h2>
               <h3>Lorem Ipsum</h3>
-              <p>
+              <p class="text-left">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
                 of type and scrambled it to make a type specimen book.
@@ -87,13 +82,11 @@
 
         <div class="flex flex-col md:flex-row my-12">
           <div class="mx-4 my-4">
-            <div>
-              <img src="assets/images/grupo4.jpg" alt="" />
-            </div>
-            <div>
+            <div class="text-center">
+              <img src="assets/images/grupo4.jpg" alt=""  class="inline"/>
               <h2>Band4</h2>
               <h3>Lorem Ipsum</h3>
-              <p>
+              <p class="text-left">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
                 of type and scrambled it to make a type specimen book.
@@ -102,13 +95,11 @@
           </div>
 
           <div class="mx-4 my-4">
-            <div>
-              <img src="assets/images/grupo5.jpg" alt="" />
-            </div>
-            <div>
+            <div class="text-center">
+              <img src="assets/images/grupo5.jpg" alt=""  class="inline"/>
               <h2>Band5</h2>
               <h3>Lorem Ipsum</h3>
-              <p>
+              <p  class="text-left">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
                 of type and scrambled it to make a type specimen book.
@@ -117,13 +108,11 @@
           </div>
 
           <div class="mx-4 my-4">
-            <div>
-              <img src="assets/images/grupo6.jpg" alt="" />
-            </div>
-            <div>
+            <div class="text-center">
+              <img src="assets/images/grupo6.jpg" alt=""  class="inline"/>
               <h2>Band6</h2>
               <h3>Lorem Ipsum</h3>
-              <p>
+              <p class="text-left">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
                 of type and scrambled it to make a type specimen book.
@@ -140,7 +129,7 @@
 
 
     <footer>
-      <div class="footer__contenido1">
+      <div class="mx-auto px-8 py-8 text-center bg-footerColor">
     
         <p class="tracking-wider text-3xl"><strong>NEWSLETTER</strong></p>
         <hr class="my-4 border-t-1 border-gray-300"/>

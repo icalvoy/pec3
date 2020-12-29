@@ -6,13 +6,16 @@
 
 @layer components {
     .btn-indigo {
-      @apply py-2 px-12 bg-indigo text-white border border-white uppercase rounded shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+      @apply py-2 px-12 bg-gradient-to-r from-rosa to-morado text-white border border-white uppercase rounded shadow-md hover:text-black;
     }
     .form-input {
       @apply py-1 px-3 w-full rounded border border-gray-300;
     }
+    .alert-info {
+      @apply rounded mb-4 py-3 px-5 text-alertText bg-alertBackground border-alertBorder border;
+    }
     h1 {
-      @apply text-4xl mb-2 text-center font-medium;
+      @apply text-4xl mb-2 text-center font-medium pt-12;
     }
     h2 {
       @apply text-3xl text-center font-medium my-4;
